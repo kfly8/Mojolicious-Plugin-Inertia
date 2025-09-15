@@ -1,6 +1,5 @@
 use Mojolicious::Lite;
 use Mojo::Util qw(md5_sum);
-use lib '../lib';
 
 plugin 'Inertia', {
     version => md5_sum( app->home->child('dist', '.vite', 'manifest.json')->slurp ),
