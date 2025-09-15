@@ -68,6 +68,7 @@
       }
    },
    "version" : "0.01",
+   "x_authority" : "cpan:KFLY",
    "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 1
 }
