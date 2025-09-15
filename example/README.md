@@ -6,7 +6,8 @@ This example demonstrates a practical implementation of Inertia.js with Mojolici
 
 ### Prerequisites
 
-- Perl 5.10+ with Mojolicious
+- Perl 5.16+ with Mojolicious
+- Carton, Carmel - perl module dependency manager
 - Node.js 16+ and npm
 
 ### Installation
@@ -14,7 +15,7 @@ This example demonstrates a practical implementation of Inertia.js with Mojolici
 1. **Install Perl dependencies:**
 ```bash
 cd example
-cpanm --installdeps ..
+carton install
 ```
 
 2. **Install Node.js dependencies:**
@@ -34,7 +35,7 @@ npm run build
 For development with hot reload:
 
 ```bash
-morbo app.pl
+carton exec -- morbo app.pl
 ```
 
 Then visit http://localhost:3000

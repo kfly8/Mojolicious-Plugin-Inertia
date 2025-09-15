@@ -1,0 +1,2 @@
+requires 'Mojolicious', '7.50';
+requires 'Mojolicious::Plugin::Inertia';
