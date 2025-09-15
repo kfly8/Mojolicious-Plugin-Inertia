@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Inertia.js adapter for Mojolicious",
    "author" : [
       "kobaken <kentafly88@gmail.com>"
    ],
@@ -42,16 +42,31 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "Carp" : "0",
+            "Mojolicious" : "7.50",
+            "Scalar::Util" : "0",
+            "perl" : "5.016000"
          }
       },
       "test" : {
          "requires" : {
+            "Test::Mojo" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kfly8/Mojolicious-Plugin-Inertia/issues"
+      },
+      "homepage" : "https://github.com/kfly8/Mojolicious-Plugin-Inertia",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kfly8/Mojolicious-Plugin-Inertia.git",
+         "web" : "https://github.com/kfly8/Mojolicious-Plugin-Inertia"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 1
